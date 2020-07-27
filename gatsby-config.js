@@ -1,22 +1,24 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter Blog`,
+    title: `Rachael Sewell`,
     author: {
-      name: `Kyle Mathews`,
-      summary: `who lives and works in San Francisco building useful things.`,
+      name: `Rachael Sewell`,
+      summary: `Content Designer | Software Developer | Craft Enthusiast`,
     },
-    description: `A starter blog demonstrating what Gatsby can do.`,
-    siteUrl: `https://gatsby-starter-blog-demo.netlify.app/`,
+    description: `Rachael Sewell portfolio`,
+    siteUrl: `https://rachaelsewell.com/`,
     social: {
-      twitter: `kylemathews`,
+      twitter: `rachswell`,
+      github: `rachmari`,
+      instagram: `rachaellewes`,
     },
   },
   plugins: [
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        path: `${__dirname}/content/blog`,
-        name: `blog`,
+        path: `${__dirname}/content`,
+        name: `content`,
       },
     },
     {

@@ -1,0 +1,58 @@
+/* Elements */
+ul {
+  margin-top: 0;
+}
+/* Class */
+.nav {
+  display: flex;
+  list-style: none;
+}
+
+.nav-item {
+  height: 0;
+  list-style-type: none;
+  display: list-item;
+  font-weight: bold;
+}
+
+.page-item {
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 4rem;
+  font-size: 2em;
+  text-align: right;
+  justify-content: center;
+}
+
+.social-item {
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 4rem;
+  text-align: left;
+  font-size: 1.5em;
+  justify-content: left;
+}
+
+.logo {
+  font-size: 5em;
+}
+
+.nav-text {
+  display: block;
+  text-decoration: none;
+  box-shadow: none;
+}
+
+.nav-container {
+  min-height: 6em;
+  width: 100%;
+  padding-right: 5em;
+  padding-left: 5em;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}

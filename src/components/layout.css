@@ -1,0 +1,23 @@
+.site-container {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.content-container {
+  flex: 1;
+  padding-top: 5em;
+}
+
+footer {
+  min-height: 4em;
+  background-color: #1eaedb;
+  display: list-item;
+  color: white;
+  padding-top: 1.25em;
+}
+
+.copyright {
+  text-align: left;
+  padding-left: 2em;
+}
